@@ -1,0 +1,51 @@
+.Watch {
+    position: relative;
+    overflow:hidden;
+}
+
+.descriptionMontre{
+    text-align: center;
+}
+.right-aside{
+    position: absolute;
+    top:50%;
+    left: 70%;
+    width: 33%;
+    text-align: center;
+}
+
+.right-aside > div{
+    background-color: blanchedalmond;
+    width: 300px;
+    height: 35px; 
+    margin:15px;
+}
+
+.dropdown-menu{
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    cursor: pointer;
+}
+
+.dropdown-menu ul{
+    padding: 0;
+}
+
+.dropdown-menu ul li{
+background-color: blanchedalmond;
+width: 300px;
+height: 35px;
+text-align: center;
+margin: 10px;
+list-style: circle;
+}
+
+.commentaire{
+    position: relative;
+    bottom: 170px;
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
+

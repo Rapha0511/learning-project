@@ -1,0 +1,68 @@
+.Navbar{
+    width:100vw ;
+    background-color: blanchedalmond;
+    z-index: 0;
+}
+.Navbar h1{
+    text-align: center;
+    margin: 0px;
+
+
+}
+
+
+
+.Navbar ul {
+    display: flex;
+    justify-content: space-around;
+    
+    padding: 0;
+    user-select: none;
+    margin: 0px;
+    height: 50px;
+    
+}
+
+.Navbar ul li{
+    list-style: none;
+}
+
+.Navbar ul li div{
+    font-size: 1rem;
+    letter-spacing: 3px;
+}
+
+.imageNav{
+    text-align: center;
+}
+
+.Contact{
+    display: inline-block;
+}
+
+.modal{
+    position: fixed;
+    top: calc(50% - 101px);
+    left: calc(50% - 78px);
+
+
+}
+
+.modal-input{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    margin-bottom: 40px;    
+}
+
+.background-modal{
+    position: fixed;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+    z-index: 50;
+}
